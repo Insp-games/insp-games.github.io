@@ -1,0 +1,150 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 400;
+}
+
+.top-navbar {
+    padding: 20px 0;
+    transition: background-color 0.5s ease;
+}
+
+.top-navbar .nav-link {
+    color: #ffb700;
+    font-size: 21px;
+}
+
+.top-navbar .nav-item {
+    padding: 0 15px;
+}
+
+.bg-top-navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-btn {
+    border-radius: 30px;
+
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ffb700;
+    --bs-btn-border-color: #ffb700;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ffb700;
+    --bs-btn-hover-border-color: #ffb700;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffb700;
+    --bs-btn-active-border-color: #ffb700;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ffb700;
+    --bs-btn-disabled-border-color: #ffb700;
+
+    color: #000 !important;
+}
+
+.main-header {
+    background: url('/imgs/home_background.jpg'), linear-gradient(0deg, #000, #4b0101);
+    color: #ffb700;
+    background-size: cover;
+}
+
+.main-header .about {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-animation: fadein 4s;
+    animation: fadein 4s;
+    letter-spacing: -1px;
+    max-width: 66%;
+}
+
+.main-header .about h1 {
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.main-header .about a {
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-title span {
+    color: #ffb700;
+}
+
+.store-links .store-icon {
+    width: 180px;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+section.about-team-section {
+    background: url('/imgs/about_background.jpg'), linear-gradient(0deg, #000, #cdcdcd);
+    color: #ffffff;
+    background-size: cover;
+}
+
+section.about-team-section .section-title {
+    color: #ffffff;
+}
+
+.about-team-section .about-us-text {
+    font-size: 18px;
+}
+
+.about-team-section .about-photo {
+    border-top: 3px solid #343a40;
+    border-left: 3px solid #343a40;
+    border-right: 3px solid #ffb700;
+    border-bottom: 3px solid #ffb700;
+}
+
+footer.footer {
+    background: #121212;
+    color: #ffffff;
+    padding: 50px;
+}
+
+footer.footer a.icon-social {
+    display: inline-block;
+}
+
+footer.footer a.icon-social img {
+    padding: 4px;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    display: block;
+}
